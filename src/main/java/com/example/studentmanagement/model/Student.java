@@ -75,5 +75,5 @@ public class Student {
     public void setFeesPaid(Boolean feesPaid) {
         this.feesPaid = feesPaid;
     }
-// Getters and Setters omitted for brevity
+
 }
