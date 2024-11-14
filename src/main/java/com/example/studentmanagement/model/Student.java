@@ -15,6 +15,7 @@ public class Student {
     private String course;
 
     @Min(value = 0, message = "Marks must be non-negative")
+    @Max(value =100, message ="Marks must not be greater than 100")
     private Double marks;
 
     private Boolean feesPaid;
